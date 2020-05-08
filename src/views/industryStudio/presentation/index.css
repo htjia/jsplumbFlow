@@ -1,0 +1,570 @@
+.itemset >>> .el-submenu i{
+    font-size: 14px;
+  }
+  .setsele >>> .el-input{
+    min-height: 20px;
+  }
+  .setsele >>> .el-input__inner{
+    height: 20px;
+    line-height: 20px;
+    padding-left: 3px;
+    padding-right: 15px;
+  }
+  .setsele >>> .el-input__suffix{
+    height: 25px;
+    width: 11px;
+    right: 11px;
+  }
+  .setseles >>> .el-input{
+    min-height: 20px;
+  }
+  .setseles >>> .el-input__inner{
+    height: 20px;
+    line-height: 20px;
+    padding-left: 3px;
+    padding-right: 3px;
+  }
+  .setseles >>> .el-input__suffix{
+    height: 25px;
+    width: 11px;
+    right: 11px;
+  }
+  .disse {
+    color: #e5e5e5;
+  }
+  .disse >>> .icofon{
+    color: #526276;
+  }
+  #contens >>> .el-icon-arrow-down::before{
+    content: '\e790';
+  }
+  #contens >>> .el-slider__bar{
+    background-color: #009494;
+  }
+  #contens >>> .el-slider__button{
+    width: 14px;
+    height: 14px;
+    border: 2px solid #009494;
+  }
+  .sts >>> .el-dialog__body{
+    padding-bottom: 15px;
+  }
+  .sts >>> .el-checkbox{
+    margin-left: 0px;
+  }
+  .rulte >>> .wdr-credits a{
+    display: none;
+  }
+  .iscat{
+    background: #009494 !important;
+    color: #FFF !important;
+  }
+  .btngroup{
+    padding: 4px 3px;
+    background: #FFF;
+    color: #009494;
+    border: 1px solid #009494;
+  }
+  .dlitem {
+    margin-left: 5px;
+    margin-bottom: 5px;
+  }
+  .dlitem:hover{
+    color: #009494;
+    cursor: pointer;
+  }
+  .divlc{
+    float: left;
+    width: 90px;
+    text-align: left;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    margin-top: 2px;
+  }
+  .list-groups{
+    height: 20px;
+    overflow: hidden;
+  }
+  .list-groupsdl{
+    min-height: 16px;
+    line-height: 15px;
+  }
+  .list-groupsdl span{
+    width: 90px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  .divcont{
+    border: 2px dotted #e5e5e5;
+    margin-top: 8px;
+    padding: 5px;
+    text-align: center;
+    height: 35px;
+  }
+  .divcontdl{
+    border: 2px dotted #e5e5e5;
+    margin-top: 8px;
+    padding: 5px;
+    text-align: center;
+    min-height: 28px;
+  }
+  .infotab{
+    border-bottom: 1px solid #e5e5e5;
+    padding: 10px;
+  }
+  .col-sty{
+    padding: 5px;
+  }
+  .viewsh >>> .el-dialog{
+    height: 100vh;
+    margin-top: 0 !important;
+  }
+  .viewsh >>> .el-dialog__body{
+    padding: 0px;
+  }
+  .viewss {
+    width: 100%;
+    height: calc(100vh - 40px);
+    overflow: auto;
+  }
+  .getbord{
+    border: 1px solid #4db6ac !important;
+  }
+  .getbord .deletebtn{
+    display: block !important;
+  }
+  .echarts_box:hover{
+    border: 1px solid #4db6ac;
+  }
+  .echarts_box:hover .deletebtn{
+    display: block !important;
+  }
+  .echarts_boxs {
+    background: #FFF;
+    box-shadow: 5px 5px 5px #ccc;
+    border: 1px solid #e5e5e5;
+    padding: 10px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+  }
+  .echarts_box {
+    background: #FFF;
+    box-shadow: 5px 5px 5px #e5e5e5;
+    border: 1px solid #e5e5e5;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+  }
+  .deletebtn {
+    display: none;
+    font-size: 16px;
+    color:#F56C6C !important;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    z-index:999;
+  }
+  .deletebtns {
+    font-size: 16px;
+    color:#F56C6C !important;
+    margin-top: 5px;
+    float: right;
+  }
+  .titles {
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 35px;
+    border-bottom: 1px solid #e5e5e5;
+    color: #666;
+  }
+  .updateico {
+    background: #fff;
+    border: #fff;
+    color:#009494;
+    padding: 0px;
+  }
+  .contbord {
+    width: calc(100% - 405px);
+    border: 8px solid #e5e5e5 !important;
+  }
+  .icofon {
+    color:#009494;
+    margin-right: 15px;
+  }
+  .tablist:hover{
+    cursor: pointer;
+    background: #cceaea;
+  }
+  .isacts {
+    cursor: pointer;
+    background: #cceaea;
+  }
+  .fontst{
+    width: 110px;
+    float: left;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  .tablist {
+    text-align: left;
+    width: 100%;
+    padding: 10px;
+    font-size: 15px;
+    padding-left: 15px;
+    border-bottom: 1px solid #e5e5e5;
+    height: 35px;
+  }
+  .autoheight {
+    height: calc(100vh - 106px);
+    background: #FFF;
+    border-right: 1px solid #e5e5e5;
+  }
+  .biao-title {
+    text-align: left;
+    width: 100%;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 10px;
+    color: #666;
+    border-bottom: 1px solid #e5e5e5;
+  }
+  .bg-cont {
+    font-size: 14px;
+    margin-top: 9px;
+    padding-left: 10px;
+  }
+  .bg-set {
+    float: right;
+    margin-top: -20px;
+    margin-right: 10px;
+  }
+  .bg-sets >>> .el-color-picker__trigger {
+    width: 50px;
+    height: 32px;
+  }
+  .bg-set >>> .el-color-picker__trigger {
+    width: 36px;
+  }
+  .centbg {
+    border-bottom: 1px solid #e5e5e5;
+    padding-bottom: 9px;
+  }
+  .centbg >>> .el-color-picker__trigger {
+    height: 28px;
+  }
+  .searchs {
+    border-bottom: 1px solid #e5e5e5;
+    padding: 3px 5px;
+  }
+  .btnnone {
+    background: transparent;
+    color: #F56C6C;
+    border: #fff;
+    padding: 0px;
+    font-size: 18px;
+    float: right;
+    display: none;
+  }
+  .tablist:hover .btnnone{
+    display: block !important;
+  }
+  .setback >>> .el-submenu__icon-arrow{
+    display: block !important;
+  }
+  .setback >>> .el-submenu__title span{
+    margin-left: 0px !important;
+  }
+  .setback >>> .el-submenu__title{
+    padding-left: 10px !important;
+  }
+  .setback >>> .el-submenu__title:hover{
+    background-color: #FFF !important;
+  }
+  .setback >>> .el-submenu__title i{
+    color: #999 !important;
+    font-size: 16px;
+  }
+  .setback >>> .el-submenu__title{
+    border-bottom: 1px solid #e5e5e5;
+    /* border-top: 1px solid #e5e5e5; */
+    color: #494949;
+  }
+  .setback >>> .el-menu-item:hover{
+    background-color: #FFF !important;
+  }
+  .setback >>> .is-active{
+    background-color: #FFF !important;
+  }
+  .table-top-btn-group{
+    font-size: 12px;
+    overflow: hidden;
+    border-bottom: 2px solid #009494;
+    margin-top: 8px;
+  }
+  .table-top-btn-group>div{
+    float: left;
+    margin-left: 0px;
+    height: 25px;
+    line-height: 25px;
+    padding: 0 8px;
+    border: 1px solid #e2e2e2;
+    cursor: pointer;
+  }
+  .table-top-btn-group>div.active{
+    color: #fff;
+    background: #009494;
+    border-color: #009494;
+  }
+  .gettab >>> .updateico{
+    transform: rotate(90deg);
+  }
+  .btnadd {
+    background: #fff;
+    color: #009494;
+    border: #fff;
+    padding: 0px;
+    font-size: 18px;
+    float: left;
+    font-weight: bold;
+    margin-top: 5px;
+    margin-left: 15px;
+  }
+  .contdrag {
+    width: 100%;
+    height: calc(100vh - 197px);
+    border: 10px solid #fff;
+    background-size: 10px 10px;
+    overflow: auto;
+    border-top: 0px;
+    border-bottom: 5px solid #fff;
+  }
+  .autoheight >>> .active .updateico {
+    background: #009494;
+    color: #fff;
+    transform: rotate(90deg);
+  }
+  .col-content {
+    border: 1px solid #e5e5e5;
+    background: #fff;
+    box-shadow: 5px 5px 5px #c9c9c9;
+    padding: 10px;
+  }
+  .rulte >>> .wdr-svg-icon svg{
+    width: 30px !important;
+    height: 30px !important;
+  }
+  .el-dropdown-menu__item:hover{
+    color: #009494
+  }
+  .icofons{
+    margin: 0px 5px;
+  }
+  .menuleft >>> .el-submenu__title{
+    height: 35px !important;
+    line-height: 35px !important;
+    display: flex;
+    align-items: center;
+  }
+  .stsin >>> .el-submenu__title{
+    height: 35px !important;
+    line-height: 35px !important;
+    display: flex;
+    align-items: center;
+  }
+  .list-groupx{
+    margin-top: -10px;
+  }
+  .sethover:hover{
+    color: #009494 !important;
+  }
+  .menuleft >>> .el-icon-arrow-down{
+    margin-right: -10px;
+  }
+  .centbg >>> .el-color-picker{
+    height: 32px;
+  }
+  .patop{
+    border-top: 1px solid #e5e5e5;
+  }
+  .selectst{
+    width: 60px;
+    float: left;
+  }
+  .delst >>>.el-icon-close{
+    margin-right: 0px;
+    width: 20px;
+    color:#F56C6C !important;
+  }
+  .delst{
+    position: relative;
+  }
+  #contens .el-menu{
+    border-right: 0px;
+  }
+  #contens >>>.el-color-picker__trigger{
+    border: 0px;
+    padding: 0px;
+    height: 25px;
+    width: 25px;
+  }
+  .gettab >>> .el-input__inner{
+    border-radius: 0px;
+    line-height: 20px;
+    height: 20px;
+  }
+  .gettab >>> .el-input__inner{
+    border-radius: 0px;
+  }
+  .esits {
+    padding: 0px !important;
+  }
+  #contens >>> .el-table__header-wrapper .is-leaf{
+    border-bottom: 1px solid #aad7d7;
+  }
+  #contens >>> .el-button--primary.is-disabled:hover{
+    background: #fff;
+  }
+  .tiaojian {
+    float: right;
+    margin-right: 5px;
+    cursor: pointer;
+  }
+  .tiaojian:hover{
+    color: #009494;
+  }
+  .ldsty >>> .el-tag--info{
+    max-width: 97px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  .tablesty{
+    width: 100%;
+    z-index:999999
+  }
+  .tablesty >>> .el-table__body-wrapper{
+    height: calc(100% - 36px) !important;
+  }
+  .textclass{
+    float:left;
+    text-align: center;
+    line-height: 28px;
+  }
+  .checkx{
+    line-height: 28px;
+    text-align: center;
+  }
+  .checkx >>> .el-checkbox{
+    margin-left: 0px;
+  }
+  .radoix{
+    text-align: center;
+    line-height: 28px
+  }
+  .radoix >>> .el-radio{
+    margin-right: 10px;
+  }
+  .deletebtncheck {
+    display: none;
+    font-size: 16px;
+    color:#F56C6C !important;
+    z-index:999;
+    margin-top: 5px;
+  }
+  .searchov{
+    float: left;
+    margin-bottom: 10px;
+    border: 1px solid #fff;
+  }
+  .searchov:hover{
+    border: 1px solid #4db6ac !important;
+  }
+  .searchov:hover .deletebtncheck{
+    display: block !important;
+  }
+  .searchovs{
+    float: left;
+  }
+  .searchlef{
+    width: calc(100% - 20px);
+    text-align: left;
+    height: 28px;
+    float: left;
+  }
+  .fwsty{
+    min-width: 130px;
+    max-width: 30%;
+  }
+  .csh{
+    width: 80px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  .sonname{
+    width: 125px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  .addradio{
+    width: 100%;
+    text-align: center;
+    padding: 5px;
+    padding-bottom: 0px;
+  }
+  .steisw{
+    float: left;
+    margin-top: 7px;
+    margin-right: 10px;
+    width: 80px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  .searchbut{
+    margin-right: 7px;
+    float: left;
+    margin-left: 5px;
+  }
+  .issatsi{
+    position: absolute;
+    right: 25px;
+    top: 3px;
+    display: none;
+  }
+  .issatsi >>> .el-switch__core{
+    width: 20px !important;
+    height: 10px;
+  }
+  .issatsi >>> .el-switch__core::after{
+    width: 7px !important;
+    height: 6px;
+  }
+  .echarts_box:hover .issatsi{
+    display: block !important;
+  }
+  .getbord .issatsi{
+    display: block !important;
+  }
+  .viewabs{
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: auto;
+    margin: 0;
+    background: #ddd;
+    z-index: 9999;
+    overflow-y: auto;
+  }
+  .viewssx {
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+  }
